@@ -1,0 +1,40 @@
+{
+  "name": "onlineresturantbookingsystem",
+  "version": "1.0.0",
+  "description": "Online resturant booking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server",
+    "server": "nodemon server/server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "engines": {
+    "node": "12.14.1"
+  },
+  "author": "brian oricho",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.12",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "react-responsive": "^8.2.0",
+    "react-responsive-carousel": "^3.2.11",
+    "react-simple-sidenav": "^2.0.0",
+    "react-slick": "^0.27.14",
+    "responsive-react": "^5.0.0",
+    "use-position": "0.0.8"
+  }
+}

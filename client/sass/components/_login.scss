@@ -1,0 +1,155 @@
+.loginContainer {
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #8d93ab;
+  color: white;
+  h1 {
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    margin-top: 3rem;
+    padding: 0;
+    font-size: 4rem;
+    color: white;
+  }
+}
+.loginForm {
+  height: auto;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  .login_element {
+    height: 10vh;
+    &-1 {
+      height: 20vh;
+    }
+    label {
+      text-align: center;
+      font-size: 1.6rem;
+      display: block;
+    }
+    textarea {
+      width: 80%;
+      background: #8d93ab;
+    }
+    input {
+      width: 80%;
+      height: 3rem;
+      display: block;
+      margin-left: 10%;
+      border: none;
+      background: #8d93ab;
+      border-bottom: 4px solid #1a2c5b;
+      padding: 0.5rem;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    input::placeholder {
+      color: white;
+    }
+    input:hover,
+    input:active {
+      border: none;
+      border-bottom: 5px solid black;
+      background: #393b44;
+      outline: none;
+      color: white;
+    }
+  }
+
+  h3 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    color: black;
+
+    a {
+      text-decoration: none;
+      color: crimson;
+    }
+  }
+}
+.errorMessage {
+  background: #f5564e;
+  height: 4rem;
+  font-size: 3rem;
+  width: 80%;
+  margin-left: 10%;
+  transition: 2s ease-in;
+}
+.signupContainer {
+  height: 90vh;
+  background: #8d93ab;
+}
+.registerResturant {
+  background: #8d93ab;
+  .instructions {
+    text-align: start;
+    list-style: none;
+    margin-top: 5rem;
+  }
+}
+.mail {
+  width: 82%;
+}
+
+.mainbox {
+  background-color: #95c2de;
+  margin: auto;
+  height: 100vh;
+  width: 98vw;
+  position: relative;
+  h1 {
+    font-size: 12rem;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10%;
+  }
+}
+
+.err {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+.err2 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}

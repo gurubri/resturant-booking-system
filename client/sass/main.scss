@@ -1,0 +1,67 @@
+@import "./components/nav.scss";
+@import "./components/home";
+@import "./components/footer";
+@import "./components/login";
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Potta One', cursive;
+// variables
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-grey-light-2: #eee;
+$color-primary: #55c57a;
+$color-primary-light: #7ed561;
+$color-primary-dark: #28b485;
+$color-grey-light-1: #f7f7f7;
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+$color-grey-light-2: #eee;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+$default-font-size: 1.6rem;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+.instructions {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (max-width: 112.5em) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.mainNav {
+  height: 5rem;
+  width: 99vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  background-color: #393b44;
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 1px 2.5px 2.5px black;
+  &-item {
+    display: inline-block;
+
+    color: white;
+    padding: 1rem 1rem;
+
+    &-link {
+      text-decoration: none;
+      font-size: 2rem;
+      color: white;
+      list-style: none;
+    }
+    &-link:active,
+    &-link:hover {
+      color: #1a2c5b;
+    }
+  }
+  &-item:hover,
+  &-item:active {
+    background-color: white;
+    background-size: cover;
+    color: #1a2c5b;
+  }
+}
+.desktopIcon {
+  font-size: 2rem;
+}
+.popupImg {
+  height: 50px;
+  width: 50px;
+}
+.sidenav {
+  box-shadow: 1px 2.5px 2.5px black;
+}
+.info {
+  padding-top: 2rem;
+
+  color: white;
+  text-align: center;
+}
+// .right {
+//   border-right: 1px solid #ffb900;
+// }
+.reserves {
+  box-shadow: 1px 2px 2px 2px #1a2c5b;
+  background: #1a2c5b;
+  color: white;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  float: left;
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+.reservation {
+  height: 150vh;
+  background: #8d93ab;
+}

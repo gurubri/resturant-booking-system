@@ -1,0 +1,445 @@
+.mainNav {
+  height: 5rem;
+  width: 99vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  background-color: #393b44;
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  box-shadow: 1px 2.5px 2.5px black; }
+  .mainNav-item {
+    display: inline-block;
+    color: white;
+    padding: 1rem 1rem; }
+    .mainNav-item-link {
+      text-decoration: none;
+      font-size: 2rem;
+      color: white;
+      list-style: none; }
+    .mainNav-item-link:active, .mainNav-item-link:hover {
+      color: #1a2c5b; }
+  .mainNav-item:hover, .mainNav-item:active {
+    background-color: white;
+    background-size: cover;
+    color: #1a2c5b; }
+
+.desktopIcon {
+  font-size: 2rem; }
+
+.popupImg {
+  height: 50px;
+  width: 50px; }
+
+.sidenav {
+  box-shadow: 1px 2.5px 2.5px black; }
+
+.info {
+  padding-top: 2rem;
+  color: white;
+  text-align: center; }
+
+.reserves {
+  box-shadow: 1px 2px 2px 2px #1a2c5b;
+  background: #1a2c5b;
+  color: white;
+  width: 45%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  float: left; }
+  .reserves h1 {
+    font-size: 1.6rem; }
+
+.reservation {
+  height: 150vh;
+  background: #8d93ab; }
+
+.map {
+  margin-top: 5rem;
+  box-shadow: 2.5px 0px 2px 1px black; }
+
+.marker-btn {
+  background-color: white;
+  width: 50px; }
+
+.marker-btn img {
+  width: 100%;
+  height: 100%; }
+
+.slider {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center; }
+
+.Home {
+  height: auto;
+  background: #8d93ab; }
+
+.image {
+  width: 80%;
+  margin: 1rem 10%;
+  height: 90%;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-top: 7.5rem; }
+
+.imageText {
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  width: 80vw;
+  margin: 0 10%;
+  font-weight: 400; }
+
+.arrowLeft {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  z-index: 10; }
+
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  z-index: 10; }
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease-in; }
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2.5s; }
+
+.cards {
+  height: 45vh;
+  display: flex;
+  justify-content: center; }
+
+.card {
+  background-color: #393b44;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 90%;
+  margin-right: 1rem;
+  box-shadow: 1px 2px 2.5px 2px black;
+  margin-top: 2rem; }
+  .card {
+    text-align: center;
+    font-size: 2rem;
+    color: black; }
+    .card p {
+      padding: 10px;
+      line-height: 1.5; }
+    .card h1 {
+      text-transform: uppercase; }
+
+@media (max-width: 56.25em) {
+  .cards {
+    flex-direction: column;
+    height: auto;
+    align-items: center; }
+  .card {
+    width: 75%;
+    height: 30rem;
+    margin-bottom: 1.5rem; } }
+
+.resturantInfo {
+  height: auto;
+  background: #8d93ab; }
+  .resturantInfo .img {
+    width: 79vw;
+    margin-left: 10%;
+    height: 50rem;
+    margin-bottom: 10%; }
+    .resturantInfo .img img {
+      height: 100%;
+      width: 100%; }
+  .resturantInfo .details {
+    width: 99vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center; }
+    .resturantInfo .details .menu {
+      box-shadow: 1px 1.5px 2px 2px black;
+      display: inline-block;
+      width: 30%;
+      margin-left: 1rem; }
+    .resturantInfo .details .description {
+      box-shadow: 0px 1.5px 2px 2px black;
+      display: inline-block;
+      width: 30%;
+      margin-left: 1rem; }
+    .resturantInfo .details .contact {
+      box-shadow: 0px 1.5px 2px 2px black;
+      display: inline-block;
+      width: 30%;
+      margin-left: 1rem; }
+  @media (max-width: 56.25em) {
+    .resturantInfo .details {
+      flex-direction: column;
+      align-items: center;
+      height: auto; } }
+  .resturantInfo h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+    padding-top: 6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+.reservations {
+  background: #8d93ab;
+  height: 100vh; }
+  .reservations h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 6rem; }
+  .reservations h5 {
+    color: white; }
+  .reservations .reserve {
+    background: #393b44;
+    box-shadow: 1px 2px 2.5px 2px black;
+    width: 45%;
+    display: inline-block;
+    margin: 0.5rem 2rem; }
+    .reservations .reserve h5 {
+      font-weight: 200; }
+
+.userSection {
+  height: 100vh;
+  font-size: 2rem;
+  background: #32ddb3;
+  font-weight: 400; }
+
+.user_container {
+  text-align: center; }
+  .user_container .avatar {
+    margin-left: 40%;
+    width: 25%; }
+    .user_container .avatar img {
+      width: 100%;
+      border-radius: 50%;
+      filter: drop-shadow(2px 4px 6px black); }
+  .user_container p {
+    font-size: 3rem;
+    color: white; }
+
+.btn {
+  height: 1rem;
+  color: black;
+  text-decoration: none;
+  background: #8d93ab;
+  padding: 1rem; }
+
+.btn:hover {
+  color: #393b44;
+  background: white; }
+
+.btn-button {
+  width: 15%;
+  font-size: 3rem;
+  height: 4rem;
+  background: #393b44;
+  color: white;
+  margin-bottom: 1rem; }
+  .btn-button-1 {
+    font-size: 1.6rem; }
+
+.btn-button:hover {
+  color: #393b44;
+  background-color: white; }
+
+footer {
+  height: 10rem;
+  background: #1a2c5b;
+  z-index: -4;
+  width: auto; }
+  footer .info p {
+    margin: 0; }
+
+.mapContainer {
+  height: 100vh;
+  background: #8d93ab; }
+  .mapContainer h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0; }
+
+.map {
+  margin-left: 5%;
+  margin-top: 0; }
+
+.BookingForm {
+  height: 40vh;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%; }
+
+.formInput label {
+  display: block;
+  color: white; }
+
+.formInput input {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem; }
+
+.loginContainer {
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #8d93ab;
+  color: white; }
+  .loginContainer h1 {
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    margin-top: 3rem;
+    padding: 0;
+    font-size: 4rem;
+    color: white; }
+
+.loginForm {
+  height: auto;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%; }
+  .loginForm .login_element {
+    height: 10vh; }
+    .loginForm .login_element-1 {
+      height: 20vh; }
+    .loginForm .login_element label {
+      text-align: center;
+      font-size: 1.6rem;
+      display: block; }
+    .loginForm .login_element textarea {
+      width: 80%;
+      background: #8d93ab; }
+    .loginForm .login_element input {
+      width: 80%;
+      height: 3rem;
+      display: block;
+      margin-left: 10%;
+      border: none;
+      background: #8d93ab;
+      border-bottom: 4px solid #1a2c5b;
+      padding: 0.5rem;
+      font-size: 2rem;
+      margin-bottom: 1rem; }
+    .loginForm .login_element input::placeholder {
+      color: white; }
+    .loginForm .login_element input:hover,
+    .loginForm .login_element input:active {
+      border: none;
+      border-bottom: 5px solid black;
+      background: #393b44;
+      outline: none;
+      color: white; }
+  .loginForm h3 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    color: black; }
+    .loginForm h3 a {
+      text-decoration: none;
+      color: crimson; }
+
+.errorMessage {
+  background: #f5564e;
+  height: 4rem;
+  font-size: 3rem;
+  width: 80%;
+  margin-left: 10%;
+  transition: 2s ease-in; }
+
+.signupContainer {
+  height: 90vh;
+  background: #8d93ab; }
+
+.registerResturant {
+  background: #8d93ab; }
+  .registerResturant .instructions {
+    text-align: start;
+    list-style: none;
+    margin-top: 5rem; }
+
+.mail {
+  width: 82%; }
+
+.mainbox {
+  background-color: #95c2de;
+  margin: auto;
+  height: 100vh;
+  width: 98vw;
+  position: relative; }
+  .mainbox h1 {
+    font-size: 12rem;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 10%; }
+
+.err {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%; }
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff; }
+
+.err2 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%; }
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  width: 75%; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  text-decoration: underline; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif; }
+
+.instructions {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%; }

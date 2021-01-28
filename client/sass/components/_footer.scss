@@ -1,0 +1,44 @@
+footer {
+  height: 10rem;
+  background: #1a2c5b;
+  z-index: -4;
+  width: auto;
+
+  .info {
+    p {
+      margin: 0;
+    }
+  }
+}
+.mapContainer {
+  height: 100vh;
+  background: #8d93ab;
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+  }
+}
+.map {
+  margin-left: 5%;
+  margin-top: 0;
+}
+.BookingForm {
+  height: 40vh;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.formInput {
+  label {
+    display: block;
+    color: white;
+  }
+  input {
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+}
